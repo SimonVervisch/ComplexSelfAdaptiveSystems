@@ -1,3 +1,4 @@
+import matplotlib.pyplot as plt
 a = 1.1
 
 def initialize():
@@ -22,5 +23,8 @@ for t in range(30):
     update()
     observe()
 
+
+plt.plot(result)
+plt.show()
 print(result)
         
